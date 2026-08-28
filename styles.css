@@ -35,3 +35,8 @@
 .ai-hero-copy>p{font:400 22px/1.8 var(--text)}
 .closing-quote blockquote,.final-cta h2{font-feature-settings:"salt" 1,"swsh" 1}
 @media(max-width:620px){.hero-lead{font-size:18px}.ai-hero-copy>p{font-size:19px}.about-intro p:not(.large-copy){font-size:18px}}
+
+/* Display metrics tuned against the real Thmanyah files. */
+.hero h1{font-size:clamp(50px,5.8vw,88px);line-height:1.2;letter-spacing:-.015em}
+.section-heading h2,.bridge-copy h2,.ai-thesis h2,.cycle-panel h3,.stack-intro h2{line-height:1.25;letter-spacing:0}
+@media(max-width:620px){.hero h1{font-size:clamp(44px,13vw,58px);line-height:1.24}.marker:after{height:12%}}
